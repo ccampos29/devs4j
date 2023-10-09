@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="devs4j-client-standalone" />
+        <module name="devs4j-config-server" />
+        <module name="devs4j-eureka-server" />
+        <module name="simple-rest-controller" />
+        <module name="devs4j-dragon-ball-failover" />
+        <module name="devs4j-dragon-ball" />
+        <module name="devs4j-game-of-thrones" />
+        <module name="devs4j-spring-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="devs4js-eureka-server" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="devs4j-client-standalone" options="-parameters" />
+      <module name="devs4j-config-server" options="-parameters" />
+      <module name="devs4j-dragon-ball" options="-parameters" />
+      <module name="devs4j-dragon-ball-failover" options="-parameters" />
+      <module name="devs4j-eureka-server" options="-parameters" />
+      <module name="devs4j-game-of-thrones" options="-parameters" />
+      <module name="devs4j-spring-gateway" options="-parameters" />
+      <module name="devs4js-eureka-server" options="-parameters" />
+      <module name="simple-rest-controller" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/devs4j-client-standalone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devs4j-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devs4j-dragon-ball-failover/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devs4j-dragon-ball/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devs4j-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devs4j-game-of-thrones/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devs4j-spring-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devs4js-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple-rest-controller/src/main/java" charset="UTF-8" />
+  </component>
+</project>
