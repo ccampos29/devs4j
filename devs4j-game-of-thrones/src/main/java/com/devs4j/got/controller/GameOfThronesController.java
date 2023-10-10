@@ -1,6 +1,12 @@
 package com.devs4j.got.controller;
 
 import com.github.javafaker.Faker;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.ArraySchema;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
@@ -24,12 +30,18 @@ public class GameOfThronesController {
 
     @PostConstruct
     public void init() {
-        for(int i = 0 ; i < 20 ; i++) {
+        for (int i = 0; i < 20; i++) {
             characters.add(faker.gameOfThrones().character());
         }
     }
 
     @GetMapping
+    @Operation(summary = "Get a list of characters from GoT")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Found characters",
+                    content = {@Content(mediaType = "application/json", array = @ArraySchema(schema = @Schema(implementation = String.class)))}),
+            @ApiResponse(responseCode = "400", description = "Characters not found", content = @Content)
+    })
     public ResponseEntity<List<String>> get() {
         log.info("getyting characters game of thrones");
         return ResponseEntity.ok(characters);

@@ -14,6 +14,7 @@
         <module name="devs4j-dragon-ball" />
         <module name="devs4j-game-of-thrones" />
         <module name="devs4j-spring-gateway" />
+        <module name="devs4j-cloudstream-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="devs4j-client-standalone" options="-parameters" />
+      <module name="devs4j-cloudstream-example" options="-parameters" />
       <module name="devs4j-config-server" options="-parameters" />
       <module name="devs4j-dragon-ball" options="-parameters" />
       <module name="devs4j-dragon-ball-failover" options="-parameters" />
