@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/devs4j-game-of-thrones/pom.xml" />
         <option value="$PROJECT_DIR$/devs4j-dragon-ball-failover/pom.xml" />
         <option value="$PROJECT_DIR$/devs4j-cloudstream-example/pom.xml" />
+        <option value="$PROJECT_DIR$/devs4j-auth-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

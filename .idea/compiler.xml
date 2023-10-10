@@ -13,6 +13,7 @@
         <module name="devs4j-dragon-ball-failover" />
         <module name="devs4j-dragon-ball" />
         <module name="devs4j-game-of-thrones" />
+        <module name="devs4j-auth-service" />
         <module name="devs4j-spring-gateway" />
         <module name="devs4j-cloudstream-example" />
       </profile>
@@ -23,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="devs4j-auth-service" options="-parameters" />
       <module name="devs4j-client-standalone" options="-parameters" />
       <module name="devs4j-cloudstream-example" options="-parameters" />
       <module name="devs4j-config-server" options="-parameters" />
